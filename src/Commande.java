@@ -5,7 +5,7 @@ public class Commande {
     private int id = 0;
     private int clientId = 0;
 
-    private List plats = new ArrayList();
+    private List<Plat> plats = new ArrayList<Plat>();
 
     public int getId() {
         return id;
@@ -29,6 +29,10 @@ public class Commande {
 
     public void supprimerPlat (int idPlat) {
 
+    }
+
+    public List<Plat> getPlats() {
+        return this.plats;
     }
 
     public String toString() {

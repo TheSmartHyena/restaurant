@@ -38,6 +38,6 @@ public class Menu {
     }
 
     public String toString() {
-        return "";
+        return "Menu: id" + this.id + " nom: " + this.nom;
     }
 }
