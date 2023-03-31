@@ -32,6 +32,7 @@ public class Commande {
     }
 
     public List<Plat> getPlats() {
+
         return this.plats;
     }
 
